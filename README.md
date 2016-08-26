@@ -72,13 +72,23 @@ working HTMLBars template though.
 
 ```javascript
 
-var renderer = new Dom.Renderer();
-var template = HTMLBars.Compiler.compile(this.templateString);
-var result = template.render(data, renderer);
+var env = {
+	dom: new HTMLBars.DOMHelper(),
+	hooks: _.defaults({
 
-// Resolve the promise
+	}, HTMLBars.Runtime.Hooks.Default),
+	helpers: {},
+	partials: {},
+	useFragmentCache: true
+};
+
+var template = HTMLBars.Compiler.compile('<h1>Hello, {{ name }}');
+var result = template.render({
+	name: 'World'
+}, env);
+
 var documentFragment = result.fragment;
-$('#container').html(documentFragment);
+$('body').html(documentFragment);
 
 ```
 
