@@ -1,0 +1,20 @@
+{
+  "name": "htmlbars",
+  "description": "Wrapper for TildeIO's HTMLBars package",
+  "main": "build/htmlbars.js",
+  "authors": [
+    "Ruben Seyferth <ruben.seyferth@gmail.com>"
+  ],
+  "dependencies": {
+       
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/rseyferth/htmlbars",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
