@@ -1,5 +1,5 @@
 {
-  "name": "htmlbars-standlone",
+  "name": "htmlbars-standalone",
   "description": "Wrapper for TildeIO's HTMLBars package",
   "main": "build/htmlbars.js",
   "authors": [
