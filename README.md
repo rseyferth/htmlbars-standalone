@@ -2,7 +2,7 @@
 This is a wrapper for standalone usage of tildeio's [HTMLBars package](https://github.com/tildeios/htmlbars). I made this 
 because there was no way to include and use HTMLBars in a project easily. All I did was:
 
-- `npm run-script build` the original project
+- `npm run-script build` the original project at **version 0.14.24**
 - bundle package using `webpack`
 - make it avaiable through `npm` and `bower`
 
