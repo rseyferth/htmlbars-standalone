@@ -82,7 +82,7 @@ var env = {
 	useFragmentCache: true
 };
 
-var template = HTMLBars.Compiler.compile('<h1>Hello, {{ name }}');
+var template = HTMLBars.Compiler.compile('<h1>Hello, {{ name }}</h1>');
 var result = template.render({
 	name: 'World'
 }, env);
