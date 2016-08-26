@@ -1,5 +1,5 @@
 {
-  "name": "htmlbars",
+  "name": "htmlbars-standlone",
   "description": "Wrapper for TildeIO's HTMLBars package",
   "main": "build/htmlbars.js",
   "authors": [
@@ -9,7 +9,7 @@
        
   },
   "license": "ISC",
-  "homepage": "https://github.com/rseyferth/htmlbars",
+  "homepage": "https://github.com/rseyferth/htmlbars-standalone",
   "ignore": [
     "**/.*",
     "node_modules",
