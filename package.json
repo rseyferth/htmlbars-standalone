@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "description": "Wrapper for TildeIO's HTMLBars package",
   "main": "build/htmlbars.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rseyferth/htmlbars.git"
+  },
   "scripts": {
     "test": "gulp mocha"
   },

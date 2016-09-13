@@ -12,6 +12,8 @@ import {
 
 import DOMHelper from './htmlbars/dom-helper';
 
+import { blockFor } from './htmlbars/htmlbars-util/template-utils';
+
 
 module.exports = {
 	DOMHelper: DOMHelper,
@@ -27,6 +29,12 @@ module.exports = {
 			Helpers: {
 				handleRedirect: handleRedirect
 			}
+		}
+	},
+
+	Util: {
+		Template: {
+			blockFor: blockFor
 		}
 	}
 

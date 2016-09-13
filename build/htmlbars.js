@@ -66,6 +66,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _domHelper2 = _interopRequireDefault(_domHelper);
 
+	var _templateUtils = __webpack_require__(41);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	module.exports = {
@@ -82,6 +84,12 @@ return /******/ (function(modules) { // webpackBootstrap
 				Helpers: {
 					handleRedirect: _hooks.handleRedirect
 				}
+			}
+		},
+
+		Util: {
+			Template: {
+				blockFor: _templateUtils.blockFor
 			}
 		}
 
@@ -5856,6 +5864,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var svgNamespace = 'http://www.w3.org/2000/svg';
 
 	function render(template, env, scope, options) {
+	  console.log(template);
 	  var dom = env.dom;
 	  var contextualElement;
 

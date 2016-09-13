@@ -8,6 +8,7 @@ import voidMap from '../htmlbars-util/void-tag-names';
 var svgNamespace = 'http://www.w3.org/2000/svg';
 
 export default function render(template, env, scope, options) {
+  console.log(template);
   																				var dom = env.dom;
   																				var contextualElement;
 
