@@ -5869,7 +5869,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	var svgNamespace = 'http://www.w3.org/2000/svg';
 
 	function render(template, env, scope, options) {
-	  console.log(template);
 	  var dom = env.dom;
 	  var contextualElement;
 
