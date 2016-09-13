@@ -1,6 +1,6 @@
 {
   "name": "htmlbars-standalone",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Wrapper for TildeIO's HTMLBars package",
   "main": "build/htmlbars.js",
   "repository": {
