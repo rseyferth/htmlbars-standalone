@@ -62,6 +62,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _hooks2 = _interopRequireDefault(_hooks);
 
+	var _render = __webpack_require__(42);
+
+	var _render2 = _interopRequireDefault(_render);
+
 	var _domHelper = __webpack_require__(51);
 
 	var _domHelper2 = _interopRequireDefault(_domHelper);
@@ -84,7 +88,8 @@ return /******/ (function(modules) { // webpackBootstrap
 				Helpers: {
 					handleRedirect: _hooks.handleRedirect
 				}
-			}
+			},
+			render: _render2.default
 		},
 
 		Util: {

@@ -10,6 +10,10 @@ import {
 
 } from './htmlbars/htmlbars-runtime/hooks';
 
+import render from './htmlbars/htmlbars-runtime/render';
+
+
+
 import DOMHelper from './htmlbars/dom-helper';
 
 import { blockFor } from './htmlbars/htmlbars-util/template-utils';
@@ -29,7 +33,8 @@ module.exports = {
 			Helpers: {
 				handleRedirect: handleRedirect
 			}
-		}
+		},
+		render: render
 	},
 
 	Util: {
