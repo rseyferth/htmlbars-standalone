@@ -53,13 +53,13 @@ import HTMLBars from 'htmlbars-standalone';
 The package makes avaiable the following objects:
 
 ```yaml
-- HTMLBars
+- HTMLBars:
   - DOMHelper: The DOMHelper class
-  - Compiler
+  - Compiler:
     - compile: The HTMLBars compile method
     - template: The HTMLBars template method
-  - Runtime
-    - Hooks
+  - Runtime:
+    - Hooks:
       - Default: The default hooks from HTMLBars that you can extend
       - Helpers:
         - handleRedirect: A helper method used in hooks
