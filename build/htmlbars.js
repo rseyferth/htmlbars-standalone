@@ -94,7 +94,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 		Util: {
 			Template: {
-				blockFor: _templateUtils.blockFor
+				blockFor: _templateUtils.blockFor,
+				RenderState: _templateUtils.RenderState,
+				renderAndCleanup: _templateUtils.renderAndCleanup
 			}
 		}
 

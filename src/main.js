@@ -16,7 +16,7 @@ import render from './htmlbars/htmlbars-runtime/render';
 
 import DOMHelper from './htmlbars/dom-helper';
 
-import { blockFor } from './htmlbars/htmlbars-util/template-utils';
+import { blockFor, RenderState, renderAndCleanup } from './htmlbars/htmlbars-util/template-utils';
 
 
 module.exports = {
@@ -39,7 +39,9 @@ module.exports = {
 
 	Util: {
 		Template: {
-			blockFor: blockFor
+			blockFor: blockFor,
+			RenderState: RenderState,
+			renderAndCleanup: renderAndCleanup
 		}
 	}
 
